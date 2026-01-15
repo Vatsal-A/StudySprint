@@ -1,4 +1,4 @@
-# 🚀 StudySprint — Pomodoro + Tasks + Progress
+# StudySprint — Pomodoro + Tasks + Progress
 
 StudySprint is a sleek productivity dashboard designed for students.  
 It combines a **Pomodoro focus timer**, **task tracking**, and **weekly progress analytics** — all in one clean interface.
@@ -11,39 +11,32 @@ It combines a **Pomodoro focus timer**, **task tracking**, and **weekly progress
 ## ✨ Features
 
 ✅ **Pomodoro Timer**
+## Features
+
+**Pomodoro Timer**
 - Focus + Break mode
 - Start / Pause / Reset
 - Auto-switch between Focus and Break sessions
 - **Spacebar shortcut** to Start/Pause
 
-✅ **Task Manager**
+**Task Manager**
 - Add tasks instantly
 - Mark complete / delete
 - **Press Enter** to add tasks from the input field
 
-✅ **Progress Tracking**
+**Progress Tracking**
 - Tracks focus minutes by day
 - Tracks completed tasks per day
 - Displays **weekly charts** for productivity insights
 
-✅ **Streak System**
+**Streak System**
 - Daily streak tracking based on focus sessions
 - Shows current & best streak
 
-✅ **Smooth UI**
+**Smooth UI**
 - Minimal dark theme
 - Responsive layout
 - Clean card-based design
-
----
-
-## 🖥️ Tech Stack
-
-- **React + Vite**
-- **Tailwind CSS**
-- **React Router DOM**
-- **Recharts**
-- **LocalStorage**
 
 ---
 
@@ -54,3 +47,13 @@ git clone https://github.com/Vatsal-A/StudySprint.git
 cd StudySprint
 npm install
 npm run dev
+
+## Tech Stack
+
+- **React + Vite**
+- **Tailwind CSS** (UI + styling)
+- **React Router DOM** (multi-page navigation)
+- **Recharts** (weekly analytics charts)
+- **LocalStorage** (persistent data without backend)
+
+---
