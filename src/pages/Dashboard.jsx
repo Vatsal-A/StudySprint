@@ -2,7 +2,7 @@ import { useCallback, useMemo, useEffect, useState } from "react";
 import Card from "../components/ui/Card";
 import Button from "../components/ui/Button";
 import { useLocalStorage } from "../hooks/useLocalStorage";
-import { useHotkeys } from "../hooks/useHotkeys";
+import { useHotkeys } from "../hooks/useHotKeys";
 import { formatTime, usePomodoro } from "../hooks/usePomodoro";
 import { ymd } from "../utils/dates";
 
